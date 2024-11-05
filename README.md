@@ -1,10 +1,7 @@
 # Website Labeler Chrome Extension
 
-<div style="text-align: center;">
-  <img src="logo.png" alt="Tech Unsatisfied Logo" id="logo" style="display: inline-block; margin: 0 auto 20px; width: 50px; height: auto;"> <!-- Make sure to replace this with the correct path to your logo -->
-  <div style="font-size: 1000px; font-weight: bold;">@techunsatisfied</div>
+![image](https://github.com/user-attachments/assets/47c57682-0713-4868-9af2-985bac38095c)
 
-</div>
 
 
 ## Overview of the Project
