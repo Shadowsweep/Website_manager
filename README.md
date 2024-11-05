@@ -2,7 +2,8 @@
 
 <div style="text-align: center;">
   <img src="logo.png" alt="Tech Unsatisfied Logo" id="logo" style="display: inline-block; margin: 0 auto 20px; width: 50px; height: auto;"> <!-- Make sure to replace this with the correct path to your logo -->
-  <div style="font-size: 100px; font-weight: bold;">@techunsatisfied</div>
+  <div style="font-size: 1000px; font-weight: bold;">@techunsatisfied</div>
+
 </div>
 
 
