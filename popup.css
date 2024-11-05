@@ -1,0 +1,101 @@
+/* popup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+#container {
+  width: 300px;
+}
+
+h1, h2 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+#savedLinks {
+  margin-top: 15px;
+}
+
+.saved-link {
+  background-color: #eaf1fc;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  word-break: break-word;
+}
+
+.saved-link a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.saved-link a:hover {
+  text-decoration: underline;
+}
+.deleteBtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
+#header-container {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Center items horizontally */
+}
+
+#logo {
+  display: block;
+  margin-right: 10px; /* Space between logo and heading */
+  width: 50px; /* Set a fixed width for the logo */
+  height: auto; /* Keep the aspect ratio */
+  background-color: transparent; /* Ensure the background is transparent */
+}

@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Web_o_manager",
+  "version": "1.0",
+  "description": "Label websites by importance, save them, and generate a PDF with all saved details.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["jspdf.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
