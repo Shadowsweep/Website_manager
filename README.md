@@ -1,6 +1,5 @@
-# Website Labeler Chrome Extension
-
 ![image](https://github.com/user-attachments/assets/47c57682-0713-4868-9af2-985bac38095c)
+# Website Labeler Chrome Extension
 
 
 
